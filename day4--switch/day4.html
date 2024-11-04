@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+//TASK 1
+
+// Day of the Week Message
+// Scenario: Develop a webpage that displays a special message based on the current day of the week.
+
+        var day=prompt("Enter a day");
+        switch(day){
+            case "Monday":
+                console.log("Start your week strong!");
+            break;
+            case "Tuesday":
+                console.log("Keep going!");
+            break;
+            case "Wednesday":
+                console.log("Halfway there!");
+            break;
+            case "Thursday":
+                console.log("Almost the weekend!");
+            break;
+            case "Friday":
+                console.log("Happy Friday!");
+            break;
+            case "Saturday":
+                console.log("Enjoy your weekend!");
+            break;
+            case "Sunday":
+                console.log("Enjoy your weekend!");
+        }
+
+
+
+
+        //TASK 2
+
+//         Prompt the user to enter the color of the traffic light.
+// Display the corresponding action.
+
+var light=prompt("Enter a color");
+switch(light){
+    case "red":
+        console.log("Stop");
+    break;
+    case "yellow":
+        console.log("Get Ready");
+    break;
+    case "green":
+        console.log("Go");
+}
+
+
+
+
+//TASK 3
+// Discount Calculator
+// Scenario: Calculate the discount based on the total purchase amount.
+
+
+var dis=+prompt("Enter a number");
+if(dis<=50){
+    console.log("No discount");
+}
+else if(dis>50 && dis<=100){
+    console.log("5% discount");
+}
+
+else if(dis>=101 && dis<=200){
+    console.log("10% discount");
+}
+else{
+    console.log("15% discount");
+}
+
+
+
+
+
+//TASK 4
+// //Assume a variable dish holds the name of the dish as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").
+// Print the price.
+
+
+var dish=prompt("Enter a dish");
+switch (dish){
+    case "Biriyani":
+        console.log("250");
+    break;
+    case "shawarma":
+        console.log("120");
+    break;
+    case "Fried rice":
+        console.log("100");
+    break;
+    case "veg pula":
+        console.log("150");
+}
+
+
+
+
+
+//TASK 5
+// Scenario: You are developing a simple calculator that performs basic arithmetic operations.
+
+
+let num1=+prompt("Enter a number");
+let num2=+prompt("Enter a number");
+
+let opp=prompt("enter a operator");
+switch(opp){
+    case "+":
+        console.log(num1+num2);
+    break;
+    case "-":
+        console.log(num1-num2);
+    break;
+    case "*":
+        console.log(num1*num2);
+    break;
+    case "/":
+        console.log(num1/num2);
+    break;
+    default:
+        console.log("Invalid operator");
+}
+
+    </script>
+</body>
+</html>
